@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin:0
+
+}
+
+#T {
+    height: 10vh;
+    margin:auto;
+    background-color: rgb(41, 45, 247);
+    justify-content: center;
+    text-align: center;
+    padding: 0.5%;
+    width: 80vw;
+}
+
+#f {
+    height: 80vh;
+    margin:auto;
+    background-color: rgb(197, 184, 0);
+    padding: 1%;
+    margin-top: 0.5px;
+    margin-block-end: auto;
+    text-align: center;
+    width: 80vw;
+}
+
+
+.texto{
+    background-color: rgb(197, 184, 0);
+    padding: 1.2%;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+#l{
+text-align: center;
+}
+
+body {
+   background-color: rgb(175, 255, 255);
+}
+.p{
+    text-align: justify;
+}
+
+.saiba_mais{
+    display: inline-block;
+    margin:auto;
+    padding: 10px;
+    color: black;
+    border: solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+} 
+
+.saiba_mais:hover{
+    background-color: rgb(85, 236, 47);
+}
+
+.rodape{
+    height: 10vh;
+    margin:auto;
+    background-color: crimson;
+    text-align: center;
+    width: 80vw;
+}
+
+.rodape a{
+    margin: auto; 
+    margin-top: 10px;
+    display: inline-block;
+}
+

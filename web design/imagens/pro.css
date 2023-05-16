@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin:auto;
+    background:#d61010;
+}
+header{
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    background-color:#333333 ;
+    vertical-align: middle;
+    position: fixed;
+    gap: 24px;
+    padding: 16px;
+    z-index: 1;
+}
+img{
+    display: inline-block;
+}
+.logo{
+   max-width: 42px;
+}
+
+ul{
+    margin:auto;
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+li{
+    color: aliceblue;
+}
+
+a{
+  text-decoration: none; 
+  color: aliceblue;   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: aliceblue;
+    font-weight: 200;
+}
+nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 2%;
+   background-color:#d61010 ;
+}
+#cabeça{
+  display: flex;
+  align-items: center;
+}
+.input{
+    display: flex;
+    align-items: center;  
+    height: 36px;
+    position: relative;
+}
+input{
+    height: 36px;
+    background-color: #5c0000;
+    border-radius: 24px;
+    padding-left: 33px;
+}
+.input::before{
+   left: 10px; 
+   content: "";
+   width: 24px;
+   height: 24px;
+   background-image: url(../imagens/search.svg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+}
+section{
+    flex-direction: column;
+    display: flex;
+    background-color: #d61010;
+    height: 390px;
+    text-align: center;
+}
+#ima{
+    width: 100%;
+    height: 470px;
+    max-height: 380px;
+    max-width:440px;
+    background-image: url(https://www.dueruote.it/content/dam/dueruote/it/foto/moto-scooter/2013/01/18/mv-agusta-f4-rr-2013/gallery/rbig/404113-3897-big-4cm8718.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+    margin-top: 10px;
+    margin: auto;
+}
+section ul{
+   justify-content: center;
+   position: relative;
+   bottom: 0;
+   margin-top: 270px;
+}
+section{
+    margin-bottom:240px;
+}
+.jk{
+    margin-top: 0px;
+    weight:100%;
+    height: 180px;
+    background-color: #5c0000;
+    font-size: 0.8em;
+    margin-bottom: 200px;
+}
+.jk1{
+    margin-top: 0px;
+    weight:100%;
+    height: 300px;
+    background-color: #5c0000;
+    font-size: 0.8em;
+    margin-bottom: 200px;
+}
+main{
+    background-color: #d61010;
+    flex-direction: column;
+    display: flex;
+}
+#seg{
+    margin-top: 10px;
+    margin: 0 auto;
+    height: 280px;
+    width: 100%;
+    max-width:440px;
+    background-image: url(../imagens/Mvf4.svg);
+}
+footer{
+    display: flex;
+    height:70px;
+    background-color:#333333;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:0px;
+}
+
+#h{
+    font-size: 27px;
+    width:160px;
+    padding: 7px;
+}
+.row{
+    display:grid;
+    grid-template-areas:
+    "a b c";
+    margin: auto;
+}
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+
+@media (max-width: 370px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        background-color:#333333;
+        justify-content: center;
+    }
+    .row{
+        display:grid;
+        grid-template-areas:
+        "a"
+        "b"
+        "c";
+        margin: auto;
+    }
+    .a{
+        grid-area: a;
+        size: 0.2px
+    }
+    .b{
+        grid-area: b;
+    }
+    .c{
+        grid-area: c;
+    }
+    #ima{
+        margin:auto;
+    }
+    #jk{
+        height: 180px;
+    }
+    #cabeça{
+        display: flex;
+        margin-right: 19px;
+    }
+}
+@media (max-height: 900px){
+    nav{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding-top: 20%;
+       background-color:#d61010 ;
+    }
+}

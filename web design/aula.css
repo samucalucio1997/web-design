@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    scroll-behavior:smooth; 
+}
+
+body{
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+div{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em; 
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    background-color: darkblue;
+}
+
+li{
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+#g{
+    height: 10%;
+    width: 20%;
+    background-color: rgb(63, 63, 172);
+    margin-top: 20%;
+    font-size: 1.5em;
+    padding: 2%;
+    margin-left: 42%;
+    border-radius: 8%;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: rgb(150, 150, 255);
+}
+a:hover{
+    background-color: blue;
+}
+
+#topo{
+    height: 100vh;
+    background-image: url(https://t2.tudocdn.net/633246?w=1920);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#txt1{
+    text-align: justify;
+    margin-top: 0.5%;
+}
+
+#img2{
+    background-image: url(https://i.pinimg.com/originals/ef/2e/9e/ef2e9e28ee33b7eac7d47284cf28b176.png);
+    background-attachment: fixed;
+}
+
+#k2{
+   padding-top: 5.9%;
+   color: rgb(165, 125, 240);
+   font-stretch: semi-condensed;
+}
+
+.tec{
+    height: 18%;
+    background-color: rgb(24, 24, 114);
+    padding: 2%;  
+    text-align: justify;
+    color: rgb(121, 69, 170);
+}
+
+#img3{
+    background-image: url(https://images6.alphacoders.com/373/373654.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: rgb(165, 125, 240);
+}
+
+#k3{
+    padding-top: 5.9%;
+    font-stretch: semi-condensed;
+}

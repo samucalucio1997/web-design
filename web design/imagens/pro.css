@@ -19,6 +19,7 @@ header{
 }
 img{
     display: inline-block;
+    height: 100%;
 }
 .logo{
    max-width: 42px;
@@ -56,6 +57,7 @@ nav{
 #cabeça{
   display: flex;
   align-items: center;
+  margin-top: 3%;
 }
 .input{
     display: flex;
@@ -79,11 +81,15 @@ input{
    background-size: cover;
    position: absolute;
 }
+#carouselExampleIndicators{
+    height: 100%;
+    
+}
 section{
     flex-direction: column;
     display: flex;
     background-color: #d61010;
-    height: 390px;
+    height: 100%;
     text-align: center;
 }
 #ima{

@@ -57,7 +57,7 @@ nav{
 #cabeça{
   display: flex;
   align-items: center;
-  margin-top: 3%;
+  
 }
 .input{
     display: flex;
@@ -97,7 +97,6 @@ section{
     height: 470px;
     max-height: 380px;
     max-width:440px;
-    background-image: url(https://www.dueruote.it/content/dam/dueruote/it/foto/moto-scooter/2013/01/18/mv-agusta-f4-rr-2013/gallery/rbig/404113-3897-big-4cm8718.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 3px;
@@ -113,13 +112,21 @@ section ul{
 section{
     margin-bottom:240px;
 }
-.jk{
-    margin-top: 0px;
-    weight:100%;
+p{
+    display: flex;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+}
+.jk p{
+    text-align: left;
+    font-weight:100%;
+    font-size: 20px;
+    color: bisque;
     height: 180px;
     background-color: #5c0000;
-    font-size: 0.8em;
     margin-bottom: 200px;
+    padding-left: 10px;
 }
 .jk1{
     margin-top: 0px;
@@ -137,10 +144,11 @@ main{
 #seg{
     margin-top: 10px;
     margin: 0 auto;
-    height: 280px;
+    font-size: 18px;
+    color: #ffe4c4;
+    height: 100vh;
     width: 100%;
-    max-width:440px;
-    background-image: url(../imagens/Mvf4.svg);
+    background-image: url(https://conteudo.imguol.com.br/blogs/36/files/2018/02/602MUNDOMOTO_PANIGALE_V4_9-1024x683.jpg);
 }
 footer{
     display: flex;

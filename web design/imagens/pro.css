@@ -46,6 +46,7 @@ a:hover{
 h1{
     color: aliceblue;
     font-weight: 200;
+    padding-left: 10px
 }
 nav{
     display: flex;
@@ -83,7 +84,6 @@ input{
 }
 #carouselExampleIndicators{
     height: 100%;
-    
 }
 section{
     flex-direction: column;
@@ -123,7 +123,7 @@ p{
     font-weight:100%;
     font-size: 20px;
     color: bisque;
-    height: 180px;
+    height: 50%;
     background-color: #5c0000;
     margin-bottom: 200px;
     padding-left: 10px;
@@ -149,6 +149,7 @@ main{
     height: 100vh;
     width: 100%;
     background-image: url(https://conteudo.imguol.com.br/blogs/36/files/2018/02/602MUNDOMOTO_PANIGALE_V4_9-1024x683.jpg);
+    
 }
 footer{
     display: flex;
